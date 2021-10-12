@@ -1,0 +1,11 @@
+POST http://localhost:5000/comments HTTP/1.1
+content-type: application/json
+
+{
+    "content": "sample",
+    "date" :   "Wed, 21 Oct 2015 18:27:50 GMT"
+
+}
+
+###
+GET http://localhost:5000/comments HTTP/1.1
